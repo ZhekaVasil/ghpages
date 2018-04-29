@@ -7,7 +7,7 @@ script:
 deploy:
 - provider: script
   skip_cleanup: true
-  script: npm run-script deploy
+  script: ./deploy-ghpages.sh
   on:
     branch: master
 env:
