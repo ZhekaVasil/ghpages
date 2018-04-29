@@ -8,7 +8,7 @@ script: npm -v
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: c2086682c85529bca20e0c29e402fd6c99c49e98
   keep-history: true
   on:
     branch: master
