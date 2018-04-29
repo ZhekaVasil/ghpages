@@ -1,0 +1,10 @@
+{
+  "name": "ghpages",
+  "version": "0.0.1",
+  "scripts": {
+    "deploy": "./deploy-ghpages.sh"
+  },
+  "dependencies": {
+    
+  }
+}
