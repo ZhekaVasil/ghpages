@@ -4,12 +4,12 @@ node_js:
   - "8"
 
 script:
-  - echo GHPages_Token
+  - echo $GHPages_Token
 
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: GHPages_Token
+  github-token: $GHPages_Token
   keep-history: true
   on:
     branch: master
