@@ -5,12 +5,12 @@ node_js:
 script:
 - echo $GH_PAGES_TOKEN
 deploy:
-  provider: script
-     skip_cleanup: true
-     script: npm deploy
-     on:
-       branch: master
+- provider: script
+  skip_cleanup: true
+  script: npm deploy
+  on:
+    branch: master
 env:
   global:
-  - GH_REF=github.com/ZhekaVasil/ghpages.git
   - secure: l/9WKj0TBUBfcSkOjEfhtuCvp30gQQMfbWjz+Q6dHhqdr5zWgUSaz2kkbva55MjesjeAhhSezOKI9Cwet26ZSwaYSDjZPCz87WIIWpr5B6nwpMnw7IEDbio3sNbx6lJ7ghNKHgdnP+oUjp2E1b3KCSfYHXB/Viepy9FGWduUFor02ll+36NxVRiQIwataCAPucYCopZMaLz+60dfbBElTiImYAlv07Tx+Xep2L+i6X/+Plo2tEZgU14BEsSwT+F/dGABGBiaaLKZsQDgjDVRu5VunrqsBIfi/BXosaMq5jfgm90XA9Gm9YJlLU8hfI3sG8DH1oUnmzXGnt6+hAIwaL2K/pF2rLShBAL6rx6C0gmgTGdphgN9SSPpiZ5w1u2nCqnJPHu+rjxf7bGt3AHOqm98AhXGWjMcbMTA5wpsV15gZBxX7Ss8z1UgcAFu31kiEZZvwr8NH8o0JAR8URmTBtkOGODtDJeEtET5iwddldz4RvdZexuJERkVyFhCvbqvGzzgm895KT/JZr39d1Ou4hk5y8Sqzx42gCqKk5gvmQjt5RrLl3Q/X3BfgI67/uucJjqbhDBedIkdG2bIwYNoB/hqBDTo613OoJcF9AwIhILz1WIFXiaMdVaBY5oaOBspMq2GG2eOnA8DhySAkkYrGHg/+5fnz9K5Ugb5M0vgiDE=
+  - secure: FUXCmETtyOeqnCfL7KpjIGK7wsIiD8oCA+cz/NGOHYPfr1/UaZ4UIpCF3aPpJbOvA61F6oLoeoB0X7h/QcTuaHFUdlKDsye9eNy2e/r8KgE5Uq3MTucBGRqguJ8NMu4JrkLJjPRQ3XZHtJvU/A9GNjbhMsaExTcBx0MSIcR3YYdnwhsleeUzRYQkgFW/FZ/YItIzybF7XXAePRzXC0QEXDnuK99YFVXjlnBlEN1RkDGUhoIqywl5fGAaYywnAT5rDNZ3I02MI808IEW606YYpKTXBg/tggv6ZxtkcO6QZu60LdKHDuSAkQJDRSzPZ+hSH/wjx1T5lRuRZFXCb5cAVWBlgrKhy+Fl7RWSMKBPbrwqFWesAFyg4oZExjTyOiJaJdbkVAB+rGiJCBDo+aYlThFUfDfEgEYLm8IGMkPiyEM2DvPJc/u2PZ8OpAZ+cVcMJ2TNUKCHfFxAB1BJVhUyaXoFm6W/bVBE6z3QEbJMMKLozsJ03U1f280xac7pAgL3puyUC8p26oZFoMP9vsLO0kM1OVj7WLIxjy+NBGp9TlUayBP912QqErxgKZWW8/aAGXA9Okv3aBHqVwlUgV6w+p9dLIpzDZwHfSDGx9mcSAPnf2GjuKSkjCH49R5o7FN5fFzndUMdoQbCE4mIhctc2Wkipp5x8lwu1XmZ3xAkHPQ=
