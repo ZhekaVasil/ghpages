@@ -7,11 +7,11 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GH_PAGES_TOKEN
+  github-token: "$GH_PAGES_TOKEN"
   keep-history: true
   on:
     branch: master
-
 env:
   global:
   - GH_PAGES_TOKEN2="310ccd0d41514e9ef79e6e0f97017afeafb30fab"
+  - secure: Bh00laXmqIyw6D7Q/gEx2+bYSqzwBMdPSJrUjxGAa9y7QFp5AZeWXdxvhwRW3tE/1PBklwsKKQOStE4DVGrwq5HoD+ix11745538Z78qsqKXblU/ljr9gRQPxmAY52GMNLqbuuTr0g9DwCjrGPotJLXGfu+WB2RMu2aN/4sJGDxtMMBQqTZkFdGJJ898T3sme0E7fXdYEHmUk+b5esGYycZgJN3osNQTYuXUFdGAqiI+YrwtW+ZAbBqXRrYn5FAhzquzAd4aknOv/rRQSbOmhr6idpAp5O9F7U1I69VpOvxRfZjx7j6PQ8djk2pFswH2/Hn8EDoGU/FOsZTo/0ZHqIBdq2DfDKZ9d3urk4dvfdnxjg3J8YTo0+GLKRoA/24N+3gHGIOVniUVHx+3u27hBQu4GKCIYUDshgW8PWpowtQErhmsmmCrZDnJ4nhV/OQ+GXQDnLjIbQJhosGKfWyKM0zWJlUd+KAc1DBK57lejwH1aNCqPgaMwjVYXVbFdGy1IxDpykPWAGkoMQ9Uq7VjlR51cG+0h6Msk9r3Uvda3MMSswiKPAtf1SJwaCIVhxyMcdVLd9j0/iVYVAou1pvjhMW9xrFUIqV/GVnNyZgQ9gZ2ZzgAoEesH0HX8r+fEBQWAyoNqmq0Grml4d9iteY47E7qU5oH/pHFb3JgAQVgrG0=
