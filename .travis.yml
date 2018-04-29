@@ -10,7 +10,6 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GHPages_Token
-  repo: ZhekaVasil/ghpages
   keep-history: true
   on:
     branch: master
