@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # git add .
 echo test2
 git commit -m "Deployed to Github Pages"
