@@ -8,7 +8,7 @@ script: npm -v
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: db8977c8ff09b6d7e97e3302c807718a2beca140
+  github-token: GHPages_Token
   keep-history: true
   on:
     branch: master
