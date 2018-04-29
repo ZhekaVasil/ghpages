@@ -16,4 +16,4 @@ deploy:
 
 env:
   global:
-    - GHPages_Token=534c841b5df38183d481b776647e1594ec1cd191
+    - $GHPages_Token=534c841b5df38183d481b776647e1594ec1cd191
