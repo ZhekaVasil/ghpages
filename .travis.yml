@@ -14,4 +14,4 @@ deploy:
 
 env:
   global:
-  - GH_PAGES_TOKEN=310ccd0d41514e9ef79e6e0f97017afeafb30fab
+  - GH_PAGES_TOKEN="310ccd0d41514e9ef79e6e0f97017afeafb30fab"
