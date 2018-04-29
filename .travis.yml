@@ -1,15 +1,13 @@
 language: node_js
 node_js:
-  - "iojs"
-  - "8"
-
+- iojs
+- '8'
 script:
-  - echo $GHPages_Token
-
+- echo $GH_PAGES_TOKEN
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GHPages_Token
+  github-token: $GH_PAGES_TOKEN
   keep-history: true
   on:
     branch: master
