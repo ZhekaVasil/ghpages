@@ -3,11 +3,11 @@ node_js:
 - iojs
 - '8'
 script:
-- echo $GH_PAGES_TOKEN
+- echo GH_PAGES_TOKEN
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GH_PAGES_TOKEN
+  github-token: GH_PAGES_TOKEN
   keep-history: true
   on:
     branch: master
