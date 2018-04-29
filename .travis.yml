@@ -3,7 +3,8 @@ node_js:
   - "iojs"
   - "8"
 
-script: npm -v
+script:
+  - console.log(GHPages_Token)
 
 deploy:
   provider: pages
