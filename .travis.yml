@@ -7,7 +7,7 @@ script:
 deploy:
 - provider: script
   skip_cleanup: true
-  script: ./deploy-ghpages.sh $GH_PAGES_TOKEN $GH_REF
+  script: /bin/sh deploy-ghpages.sh $GH_PAGES_TOKEN $GH_REF
   on:
     branch: master
 env:
