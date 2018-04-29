@@ -9,7 +9,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GHPages_Token
+  github-token: 8a95aa1a1a0bd4d86899f9959728d368bb072088
   keep-history: true
   on:
     branch: master
